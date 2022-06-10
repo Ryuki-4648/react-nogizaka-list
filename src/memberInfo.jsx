@@ -4,12 +4,11 @@ import img01 from './img/color01.png';
 import img02 from './img/color02.png';
 import img03 from './img/color03.png';
 
-
 export const MemberInfo = () => {
   const memberList = [
-    {name: 'Mai Shiraishi', birth: '1992/7/16', img: `${img01}`, born: '群馬県', memo:'ああああああ'}, // img: {img01}だと、src=""[ObjectObject]となり、画像表示されない
-    {name: 'Nanase Nishino', birth: '1995/1/16', img: `${img02}`, born: '大阪府', memo:'いいい'},
-    {name: 'Erika Ikuta', birth: '1995/3/16', img: `${img03}`, born: 'ドイツ', memo:'うううううううううううううううううううううううう'},
+    {name: 'Mai Shiraishi', birth: '1992/8/20', img: `${img01}`, born: '群馬県', memo:'乃木坂46の絶対的エース。別名：黒石さん。', url:'https://www.instagram.com/m.shiraishi.official/'},
+    {name: 'Nanase Nishino', birth: '1994/5/25', img: `${img02}`, born: '大阪府', memo:'乃木坂46の儚さの象徴ともいえる存在。', url:'https://www.instagram.com/nishino.nanase.official/'},
+    {name: 'Erika Ikuta', birth: '1997/1/22', img: `${img03}`, born: 'ドイツ・デュッセルドルフ', memo:'唯一無二の歌声で観客魅了するミュージカル女優。ジャイアン。', url:'https://www.instagram.com/ikutaerika.official/'},
   ];
   
   return(
