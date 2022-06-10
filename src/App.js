@@ -1,4 +1,3 @@
-
 import './App.css';
 import './reset.css';
 import MemberInfo from './memberInfo';
