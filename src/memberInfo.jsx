@@ -15,7 +15,7 @@ export const MemberInfo = () => {
     <ul className="list">
     {memberList.map((member, index) => {
       return (
-        <li className="list-item" key={member}>
+        <li className="list-item" key={member.name}>
           <div className='img-member'>
             <img src={member.img} className="" alt="logo" />
           </div>
